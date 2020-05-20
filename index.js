@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'))
  
 app.get('/', function(request, response) {
   //response.send('<h1>Cäsar Verschlüsselung</h1>')
-  response.sendFile(path.join(__dirname + '/caesar.html'))
+  response.sendFile(path.join(__dirname + '/caesar26.html'))
 })
 
 app.listen(app.get('port'), function() {
