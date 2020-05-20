@@ -3,7 +3,7 @@ var app = express()
 var path = require('path')
 
 app.set('port', (process.env.PORT || 5000))
-app.use(express.static(__dirname + '/public'))
+
 
 var dateipfad = path.join(__dirname, 'public', 'caesar26.html')
  
